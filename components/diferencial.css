@@ -1,0 +1,85 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+}
+
+.pai {
+    display: flex;
+    justify-content: center;
+}
+
+
+.filho h3 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    width: 500px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.filho p {
+    width: 450px;
+}
+
+.imagem img {
+    width: 370px;
+    height: 351px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.pai-2 h3 {
+    color: #675444;
+    font-size: 33px;
+    
+}
+
+.pai-2 h3 p {
+    width: 450px;
+    color: #808080;
+}
+
+.pai-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.filho-2 p {
+    width: 310px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px!important;
+    border-bottom: 0;
+    transition: all 0.8s;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #F9BE4F!important;
+    border-radius: 5px;
+    background-color: #191919!important;
+    color: white;
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    margin-bottom: -1px;
+    border: solid transparent;
+    box-sizing: border-box;
+    transition:  .2s ease-in-out;
+    
+}
+
+button :hover {
+    background-color: #675444!important;
+}
